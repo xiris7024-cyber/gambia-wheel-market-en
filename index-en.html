@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gambia Wheel Hub Market Size Demand Analysis</title>
+<style>
+  :root {
+    --primary: #1a365d;
+    --primary-light: #2b6cb0;
+    --accent: #ed8936;
+    --accent-dark: #c05621;
+    --bg: #f7fafc;
+    --card: #ffffff;
+    --text: #2d3748;
+    --text-light: #718096;
+    --border: #e2e8f0;
+    --green: #38a169;
+    --red: #e53e3e;
+    --gradient: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .hero {
+    background: var(--gradient);
+    color: #fff;
+    padding: 80px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .hero h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+  }
+  .hero p {
+    font-size: 1.15rem;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  section {
+    margin: 48px 0;
+  }
+  section > h2 {
+    font-size: 1.7rem;
+    color: var(--primary);
+    border-left: 5px solid var(--accent);
+    padding-left: 16px;
+    margin-bottom: 28px;
+  }
+
+  .summary-card {
+    background: var(--gradient);
+    color: #fff;
+    border-radius: 16px;
+    padding: 36px 40px;
+    margin-bottom: 40px;
+  }
+  .summary-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    opacity: 0.9;
+  }
+  .summary-card p {
+    font-size: 1.05rem;
+    opacity: 0.85;
+    margin-bottom: 20px;
+  }
+
+  .size-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 24px;
+  }
+  .size-card {
+    background: var(--card);
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+  }
+  .size-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); }
+  .size-card-header {
+    padding: 20px 28px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .size-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .badge-16 { background: #2b6cb0; }
+  .badge-17 { background: #3182ce; }
+  .badge-18 { background: var(--accent); }
+  .badge-19 { background: #c05621; }
+  .size-card-header .info h3 {
+    font-size: 1.2rem;
+    color: var(--primary);
+  }
+  .size-card-header .info .stars {
+    color: var(--accent);
+    font-size: 0.95rem;
+  }
+  .size-card-body {
+    padding: 0 28px 24px;
+  }
+  .size-card-body h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-light);
+    margin: 14px 0 8px;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    background: #edf2f7;
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .tag.highlight {
+    background: #ebf8ff;
+    border: 1px solid #90cdf4;
+  }
+  .spec-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .spec-pill {
+    background: var(--primary);
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .market-note {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: #fffaf0;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.93rem;
+    color: #744210;
+  }
+
+  .pickup-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--card);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .pickup-table thead th {
+    background: var(--primary);
+    color: #fff;
+    padding: 14px 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .pickup-table tbody td {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95rem;
+  }
+  .pickup-table tbody tr:last-child td { border-bottom: none; }
+  .pickup-table tbody tr:hover { background: #f7fafc; }
+  .pct-bar {
+    display: inline-block;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--primary-light);
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .stock-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  .stock-card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .stock-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+  }
+  .stock-card.tier1::before { background: #2b6cb0; }
+  .stock-card.tier2::before { background: #3182ce; }
+  .stock-card.tier3::before { background: var(--accent); }
+  .stock-card.tier4::before { background: #c05621; }
+  .stock-pct {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stock-label {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 16px;
+  }
+  .stock-specs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .stock-specs .tag {
+    background: #ebf8ff;
+    border: 1px solid #90cdf4;
+    font-weight: 600;
+  }
+  .stock-models {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
+  }
+
+  .conclusion {
+    background: var(--gradient);
+    color: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    margin: 48px 0 60px;
+  }
+  .conclusion h2 {
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  .conclusion p {
+    font-size: 1.05rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 24px;
+  }
+  .flow-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .flow-step {
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.3);
+    padding: 16px 28px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .flow-arrow {
+    font-size: 1.6rem;
+    margin: 0 12px;
+    opacity: 0.6;
+  }
+  .flow-desc {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: var(--text-light);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 1.8rem; }
+    .size-grid { grid-template-columns: 1fr; }
+    .summary-card, .conclusion { padding: 24px 20px; }
+    .pickup-table { font-size: 0.85rem; }
+    .pickup-table thead th, .pickup-table tbody td { padding: 10px 12px; }
+    .flow-arrow { margin: 0 6px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Gambia Wheel Hub Market<br>Size Demand Analysis</h1>
+  <p>Wheel hub consumer insights and dealer stocking strategies for West Africa's used car import market</p>
+</div>
+
+<div class="container">
+
+  <!-- I. Overall Market Conclusion -->
+  <section>
+    <div class="summary-card">
+      <h3>I. Overall Market Conclusion</h3>
+      <p>Gambia is a typical West African used car import market. Vehicles are primarily sourced from Japan, Europe, and the Middle East. Consumer purchasing power is relatively limited, so wheel hub consumption centers on <strong>practicality, durability, and value for money</strong>.</p>
+      <p style="margin-bottom: 8px;">Overall market demand follows a clear pyramid structure:</p>
+      <p style="font-size: 1.05rem; opacity: 0.9; line-height: 1.9;">
+        <strong>16"</strong> &gt; <strong>17"</strong> &gt; <strong>18"</strong> &gt; 15" Alloy &gt; 19" and above
+      </p>
+      <p style="margin-top: 14px;">The <strong>16" and 17"</strong> sizes form the absolute market dominant, accounting for the vast majority of sales; <strong>18"</strong> has steady growth potential; <strong>19" and above</strong> primarily serves the high-end modification market.</p>
+    </div>
+  </section>
+
+  <!-- II. Passenger Vehicle Market -->
+  <section>
+    <h2>II. Passenger Vehicle Market (Sedan / SUV)</h2>
+    <div class="size-grid">
+
+      <!-- 16" -->
+      <div class="size-card">
+        <div class="size-card-header">
+          <div class="size-badge badge-16">16"</div>
+          <div class="info">
+            <h3>16 Inch &mdash; Core Market Size</h3>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+        </div>
+        <div class="size-card-body">
+          <h4>Key Vehicle Models</h4>
+          <div class="tag-list">
+            <span class="tag">Toyota Corolla</span>
+            <span class="tag">Toyota RAV4</span>
+            <span class="tag">Honda CR-V</span>
+            <span class="tag">Hyundai Santa Fe</span>
+            <span class="tag">Nissan X-Trail</span>
+            <span class="tag">Toyota Hilux Base</span>
+            <span class="tag">Toyota Land Cruiser (Older)</span>
+          </div>
+          <h4>Recommended Specs</h4>
+          <div class="spec-row">
+            <span class="spec-pill">16x7</span>
+            <span class="spec-pill">16x7.5</span>
+          </div>
+          <h4>Common PCD</h4>
+          <div class="spec-row">
+            <span class="spec-pill">PCD 5x114.3</span>
+            <span class="spec-pill">PCD 6x139.7</span>
+          </div>
+          <div class="market-note">
+            Covers sedans, SUVs, and some pickup trucks. This is the highest-demand size in the Gambia wheel hub market and the most important cash-flow product for dealers.
+          </div>
+        </div>
+      </div>
+
+      <!-- 17" -->
+      <div class="size-card">
+        <div class="size-card-header">
+          <div class="size-badge badge-17">17"</div>
+          <div class="info">
+            <h3>17 Inch &mdash; Sales-Profit Balance Point</h3>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          </div>
+        </div>
+        <div class="size-card-body">
+          <h4>Key Vehicle Models</h4>
+          <div class="tag-list">
+            <span class="tag">Toyota Prado</span>
+            <span class="tag">Toyota Fortuner</span>
+            <span class="tag">Toyota Hilux High-Trim</span>
+            <span class="tag">Ford Ranger</span>
+            <span class="tag">Honda CR-V</span>
+            <span class="tag">Toyota RAV4</span>
+          </div>
+          <h4>Recommended Specs</h4>
+          <div class="spec-row">
+            <span class="spec-pill">17x8</span>
+            <span class="spec-pill">17x8.5</span>
+          </div>
+          <h4>Compatible Tires</h4>
+          <div class="tag-list">
+            <span class="tag highlight">215/65R17</span>
+            <span class="tag highlight">225/65R17</span>
+            <span class="tag highlight">235/65R17</span>
+            <span class="tag highlight">265/65R17</span>
+          </div>
+          <div class="market-note">
+            The most popular upgrade size in Gambia's modification market. It balances aesthetics, ground clearance, and cost, making it the best equilibrium between profit and volume.
+          </div>
+        </div>
+      </div>
+
+      <!-- 18" -->
+      <div class="size-card">
+        <div class="size-card-header">
+          <div class="size-badge badge-18">18"</div>
+          <div class="info">
+            <h3>18 Inch &mdash; Mid-to-High-End Upgrade Market</h3>
+            <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+          </div>
+        </div>
+        <div class="size-card-body">
+          <h4>Key Vehicle Models</h4>
+          <div class="tag-list">
+            <span class="tag">Toyota Prado</span>
+            <span class="tag">Toyota Fortuner</span>
+            <span class="tag">Toyota Hilux Modified</span>
+            <span class="tag">Ford Ranger Wildtrak</span>
+            <span class="tag">BMW X5</span>
+            <span class="tag">Mercedes-Benz GLE</span>
+          </div>
+          <h4>Recommended Specs</h4>
+          <div class="spec-row">
+            <span class="spec-pill">18x8.5</span>
+            <span class="spec-pill">18x9</span>
+          </div>
+          <div class="market-note">
+            The most commonly accepted upgrade ceiling for mid-to-high-end consumers. Compared to 19", tire costs are lower and road adaptability is stronger, resulting in significantly higher market volume.
+          </div>
+        </div>
+      </div>
+
+      <!-- 19" -->
+      <div class="size-card">
+        <div class="size-card-header">
+          <div class="size-badge badge-19">19"</div>
+          <div class="info">
+            <h3>19 Inch &mdash; Premium Modification Market</h3>
+            <div class="stars">&#9733;&#9734;&#9734;&#9734;&#9734;</div>
+          </div>
+        </div>
+        <div class="size-card-body">
+          <h4>Key Vehicle Models</h4>
+          <div class="tag-list">
+            <span class="tag">Toyota Land Cruiser 200</span>
+            <span class="tag">Toyota Land Cruiser 300</span>
+            <span class="tag">Lexus GX</span>
+            <span class="tag">Lexus LX</span>
+            <span class="tag">Range Rover</span>
+            <span class="tag">Premium SUV Modifications</span>
+          </div>
+          <h4>Recommended Specs</h4>
+          <div class="spec-row">
+            <span class="spec-pill">19x9</span>
+            <span class="spec-pill">19x9.5</span>
+          </div>
+          <div class="market-note">
+            Limited demand, but high unit price and profit margins. Primary customers are business owners, government officials, and high-income individuals who prefer SUV and off-road vehicle modifications.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- III. Pickup Truck Market Analysis -->
+  <section>
+    <h2>III. Pickup Truck Market Analysis</h2>
+    <p style="color: var(--text-light); margin-bottom: 20px; font-size: 1rem;">Gambia is a typical pickup truck consumption market, with <strong>Toyota Hilux</strong> and <strong>Ford Ranger</strong> having the highest vehicle population.</p>
+    <table class="pickup-table">
+      <thead>
+        <tr>
+          <th>Size</th>
+          <th>Market Share</th>
+          <th>Characteristics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>16 Inch</strong></td>
+          <td>
+            <span class="pct-bar" style="width:100px;"></span>45%-55%
+          </td>
+          <td>Primary work vehicle configuration, high proportion of steel wheels, emphasizes durability and load capacity</td>
+        </tr>
+        <tr>
+          <td><strong>17 Inch</strong></td>
+          <td>
+            <span class="pct-bar" style="width:72px;"></span>30%-40%
+          </td>
+          <td>Factory high-trim mainstream configuration, preferred modification size, best balance of appearance and practicality</td>
+        </tr>
+        <tr>
+          <td><strong>18 Inch</strong></td>
+          <td>
+            <span class="pct-bar" style="width:30px;"></span>10%-15%
+          </td>
+          <td>Off-road modification, high-trim vehicle upgrades, clear growth trend</td>
+        </tr>
+        <tr>
+          <td><strong>19 Inch & Above</strong></td>
+          <td>
+            <span class="pct-bar" style="width:12px;"></span>Under 5%
+          </td>
+          <td>High-end personalized modification, smaller market capacity, higher profit margins</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- IV. Dealer Stocking Recommendations -->
+  <section>
+    <h2>IV. Dealer Stocking Recommendations</h2>
+    <div class="stock-grid">
+      <div class="stock-card tier1">
+        <div class="stock-pct">70%</div>
+        <div class="stock-label">Tier 1 Inventory</div>
+        <div class="stock-specs">
+          <span class="tag">16x7</span>
+          <span class="tag">16x7.5</span>
+        </div>
+        <div class="stock-models">
+          PCD: 5x114.3 / 6x139.7<br>
+          Corolla, RAV4, CR-V, Hilux, Land Cruiser (Older), etc.
+        </div>
+      </div>
+      <div class="stock-card tier2">
+        <div class="stock-pct">20%</div>
+        <div class="stock-label">Tier 2 Inventory</div>
+        <div class="stock-specs">
+          <span class="tag">17x8</span>
+          <span class="tag">17x8.5</span>
+        </div>
+        <div class="stock-models">
+          Prado, Fortuner, Hilux, Ranger, etc.
+        </div>
+      </div>
+      <div class="stock-card tier3">
+        <div class="stock-pct">8%</div>
+        <div class="stock-label">Tier 3 Inventory</div>
+        <div class="stock-specs">
+          <span class="tag">18x8.5</span>
+          <span class="tag">18x9</span>
+        </div>
+        <div class="stock-models">
+          High-trim SUVs and off-road modification customers
+        </div>
+      </div>
+      <div class="stock-card tier4">
+        <div class="stock-pct">2%</div>
+        <div class="stock-label">Image & High-Profit Products</div>
+        <div class="stock-specs">
+          <span class="tag">19x9</span>
+          <span class="tag">19x9.5</span>
+        </div>
+        <div class="stock-models">
+          Land Cruiser 300, Lexus LX, Range Rover, and other premium models
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- V. Final Conclusion -->
+  <div class="conclusion">
+    <h2>V. Final Conclusion</h2>
+    <p>The 16" and 17" are the absolute core products that determine sales volume; 18" is a key growth opportunity for the future; 19" primarily serves brand image and profit contribution roles.</p>
+    <p><strong>Recommended dealer priority layout:</strong></p>
+    <div class="flow-steps">
+      <div class="flow-step">16"<span class="flow-desc">Volume Product</span></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step">17"<span class="flow-desc">Profit Product</span></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step">18"<span class="flow-desc">Image Product</span></div>
+    </div>
+    <p style="margin-top: 24px; font-size: 0.95rem;">Build a complete product matrix of "Volume + Profit + Image"<br>to maximize market coverage and profitability.</p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 Gambia Wheel Hub Market Analysis &mdash; Size Demand Analysis Report
+</footer>
+
+</body>
+</html>
